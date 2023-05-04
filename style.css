@@ -1,0 +1,287 @@
+/* layout pages */
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    font-size: 62.5%;
+    background-image: url(./img/purple-abstract-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 10% 45% 35% 10%;
+    grid-template-columns: (4 auto);
+    grid-template-areas:
+    "h1 h1 h1 h1"
+    "nav sect1 sect1 sect3"
+    "nav sect2 sect2 sect3"
+    "nav sect4 sect4 sect3";
+}
+
+nav {
+    grid-area: nav;
+    height: 95vh;
+    width: 10vw;
+    background-color: #bee7e8;
+}
+
+
+
+.navul {
+    height: 50vh;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    flex-direction: column;
+}
+
+.imgul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.navimg {
+    width: 4vw;
+}
+
+a:link {
+    text-decoration: none;
+    list-style: none;
+    color: #594157;
+}
+
+a:visited {
+    text-decoration: none;
+    list-style: none;
+    color: #594157;
+}
+
+a:hover {
+    text-decoration: none;
+    list-style: none;
+    color: #963e8f;
+}
+
+p {
+    font-size: 0.75rem;
+    margin-top: 2rem;
+}
+
+
+.profpic {
+    width: 10vw;
+    margin-top: 2rem;
+}
+
+/* homepage */
+
+h1 {
+    width: 100vw;
+    height: 5vh;
+    background-color: #Bee7e8;
+    color: #594157;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: h1;
+}
+
+.sect1index {
+    width: 50vw;
+    height: 20vh;
+    background-color: #BEE7E8;
+    grid-area: sect1;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: outset;
+    border-color: #963e8f;
+}
+
+.sect2index {
+    grid-area: sect2;
+    width: 50vw;
+    height: 20vh;
+    background-color: #BEE7E8;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: outset;
+    border-color: #963e8f;
+}
+
+.sect3index {
+    grid-area: sect3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.instapic {
+    width: 10vw;
+    border-style: outset;
+    border-color: #963e8f;
+    border-radius: 2rem;
+}
+
+.logo {
+    width: 4vw;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+/* about me */
+
+.sect1aboutMe {
+    padding: 1rem;
+    width: 20vw;
+    height: 50vh;
+    background-color: #BEE7E8;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: outset;
+    border-color: #963e8f;
+}
+
+.sect2aboutMe {
+    padding: 1rem;
+    width: 20vw;
+    height: 50vh;
+    background-color: #BEE7E8;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-style: outset;
+    border-color: #963e8f;
+}
+
+.sect3aboutMe {
+    padding: 1rem;
+    width: 20vw;
+    height: 50vh;
+    background-color: #BEE7E8;
+    border-radius: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-style: outset;
+    border-color: #963e8f;
+}
+
+.sectionsAM {
+    display: flex;
+    width: 90vw;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.downloadCV {
+    width: 30vw;
+    height: 10vh;
+    margin: 10rem;
+    margin-left: 25rem;
+    background-color: #bee7e8;
+    border-radius: 4rem;
+    border-style: outset;
+    border-color: #963e8f;
+}
+
+/* Contact form */
+
+form {
+    margin-left: 20rem;
+    width: 750px;
+    height: 750px;
+}
+
+div.elem-group {
+    margin: 40px 0;
+}
+  
+label {
+    display: block;
+    font-family: 'Aleo';
+    padding-bottom: 4px;
+    font-size: 1.25em;
+    background-color: #BEE7E8;
+}
+  
+input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    width: 750px;
+    padding: 8px;
+}
+  
+textarea {
+    height: 100px;
+}
+  
+button {
+    height: 50px;
+    background: green;
+    color: white;
+    border: 2px solid darkgreen;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button:hover {
+    border: 2px solid black;
+}
+
+/* Wat ik kan */
+
+.sect1WIK {
+    width: 50vw;
+    height: 15vh;
+    padding-bottom: 2rem;
+    background-color: #BEE7E8;
+    grid-area: sect1;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: outset;
+    border-color: #963e8f;
+}
+
+.sect2WIK {
+    background-color: #BEE7E8;
+    border-radius: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: outset;
+    border-width: 4px;
+}
+
+.h2WIK {
+    margin-left: 10rem;
+}
