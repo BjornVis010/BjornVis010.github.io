@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
         $to = "bjornvisimp@gmail.com";
         $subject = "This is subject";
         
@@ -17,4 +17,4 @@
     }else {
         echo "Message could not be sent...";
     }
-?>
+?> -->
