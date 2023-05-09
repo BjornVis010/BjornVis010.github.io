@@ -236,6 +236,7 @@ input, select, textarea {
     font-family: 'Aleo';
     width: 750px;
     padding: 8px;
+    margin: 2rem;
 }
   
 textarea {
