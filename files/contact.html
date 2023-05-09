@@ -34,8 +34,9 @@
         
         <br><textarea name="message" placeholder="Message:"></textarea>
 
-        <br><input type="submit"></input>
-    </form>	
+        <br><input type="submit" value="submit"></input>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.6.0/validator.min.js"></script>
     <script language="JavaScript">
         var frmvalidator  = new Validator("contactform");
         frmvalidator.addValidation("name","req","Please provide your name");
