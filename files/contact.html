@@ -10,38 +10,26 @@
 </head>
 <body>
 <h1>contact</h1>
-    <nav>
-        <ul class="navul">
-            <li><a href="../files/aboutMe.html">Over mij</a></li>
-            <li><a href="../files/pictures.html">Foto's</a></li>
-            <li><a href="../files/iKnowThis.html">Wat ik kan</a></li>
-            <li><a href="../files/myCV.html">mijn CV</a></li>
-            <li><a href="../files/contact.html">Contact</a></li>
-        </ul>
-        <a href="../index.html"><img class="profpic" src="../img/Björn.jpg" alt="my profile picture"></a>
-        <ul class="logos">
-            <a href="#"><img class="logo" src="../img/211904_social_github_icon.png" alt="github"></a>
-            <a href="#"><img class="logo" src="../img/4691240_instagram_icon.png" alt="instagram"></a>
-        </ul>
-    </nav>
-    <form method="post" name="contact_form"
-    action="./contactQuery.php">
-        <input type="text" name="name" placeholder="Your Name:">
-
-        <br><input type="text" name="email" placeholder="Email Address:">
-
-        
-        <br><textarea name="message" placeholder="Message:"></textarea>
-
-        <br><input type="submit" value="submit"></input>
-    </form>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.6.0/validator.min.js"></script>
-    <script language="JavaScript">
-        var frmvalidator  = new Validator("contactform");
-        frmvalidator.addValidation("name","req","Please provide your name");
-        frmvalidator.addValidation("email","req","Please provide your email");
-        frmvalidator.addValidation("email","email",
-          "Please enter a valid email address");
-        </script>
+   <nav>
+      <ul class="navul">
+         <li><a href="../files/aboutMe.html">Over mij</a></li>
+         <li><a href="../files/pictures.html">Foto's</a></li>
+         <li><a href="../files/iKnowThis.html">Wat ik kan</a></li>
+         <li><a href="../files/myCV.html">mijn CV</a></li>
+         <li><a href="../files/contact.html">Contact</a></li>
+      </ul>
+      <a href="../index.html"><img class="profpic" src="../img/Björn.jpg" alt="my profile picture"></a>
+      <ul class="logos">
+         <a href="https://github.com/BjornVis010" target="_blank"><img class="logo" src="../img/211904_social_github_icon.png" alt="github"></a>
+         <a href="https://www.instagram.com/bjornvis010/" target="_blank"><img class="logo" src="../img/4691240_instagram_icon.png" alt="instagram"></a>
+      </ul>
+   </nav>
+   <div class="container">
+      <p1>Get in touch</p1>
+      <p2>Email: Bjornvisimp@gmail.com
+         <br>telefoon: +31 6 11808246
+         <br>post: mosterdzaaddreef 17, 3204GN Spijkenisse
+      </p2>
+   </div>
 </body>
 </html>

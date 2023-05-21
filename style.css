@@ -210,52 +210,27 @@ h3 {
 
 /* Contact form */
 
-form {
-    margin-left: 20rem;
-    width: 750px;
-    height: 750px;
-}
-
-div.elem-group {
-    margin: 40px 0;
-}
-  
-label {
-    display: block;
-    font-family: 'Aleo';
-    padding-bottom: 4px;
-    font-size: 1.25em;
+.container {
+    border-radius: 4rem;
+    width: 50vw;
+    height: 50vh;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #BEE7E8;
 }
-  
-input, select, textarea {
-    border-radius: 2px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    font-size: 1.25em;
-    font-family: 'Aleo';
-    width: 750px;
-    padding: 8px;
-    margin: 2rem;
+
+p1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #594157
 }
-  
-textarea {
-    height: 100px;
-}
-  
-button {
-    height: 50px;
-    background: green;
-    color: white;
-    border: 2px solid darkgreen;
-    font-size: 1.25em;
-    font-family: 'Aleo';
-    border-radius: 4px;
-    cursor: pointer;
-}
-  
-button:hover {
-    border: 2px solid black;
+
+p2 {
+    font-size: 2rem;
 }
 
 /* Wat ik kan */
@@ -275,14 +250,55 @@ button:hover {
 }
 
 .sect2WIK {
+    height: 100vh;
     background-color: #BEE7E8;
     border-radius: 4rem;
-    display: flex;
-    flex-wrap: wrap;
     border-style: outset;
     border-width: 4px;
 }
 
+.sect3WIK {
+    margin-top: 20rem;
+    width: 50vw;
+    height: 15vh;
+    padding-bottom: 2rem;
+    background-color: #BEE7E8;
+    grid-area: sect1;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: outset;
+    border-color: #963e8f;
+}
+
+.pWIK {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .h2WIK {
-    margin-left: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+/* mijn foto's */
+
+.fotopage {
+    height: 15rem;
+    margin-left: 2rem;
+    border-radius: 4rem;
+    border-style: outset;
+    border-color: #963e8f;
+    border-style: ridge;
+}
+
+section7 {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
 }
