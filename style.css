@@ -302,3 +302,62 @@ section7 {
     display: flex;
     align-items: center;
 }
+
+/* projecten */
+
+.h2MP {
+    background-color: #BEE7E8;
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.eVitsImg {
+    width: 70vw;
+    height: 100vh;
+    margin-left: 7rem;
+}
+
+.bodyMP {
+    height: 100vh;
+    overflow-y:scroll;
+}
+
+.headerMP {
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    
+}
+
+.travellyImg {
+    width: 70vw;
+    height: 100vh;
+    margin-left: 7rem;
+}
+
+.jsgameImg {
+    width: 70vw;
+    height: 100vh;
+    margin-left: 7rem;
+}
+
+.navMP {
+    padding-bottom: 105vh;
+}
+
+.quote {
+    margin-top: 30vh;
+    height: 21vh;
+}
+
+.voorAltijd {
+    margin-top: 20vh;
+    height: 21vh;
+}
